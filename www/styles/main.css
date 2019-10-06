@@ -1,0 +1,288 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: rgb(124, 98, 77);
+}
+
+.MainBlock {
+	position: relative;
+	height: 1560px;
+	width: 100%;
+}
+
+.TopBlock {
+	position: absolute;
+	top: 0;
+	height: 1470px;
+	width: 100%;
+}
+
+.TopBlock>div:first-child{
+	float: left;
+	height: 100%;
+	width: 7%;
+}
+
+.TopBlock>div:nth-child(2n){
+	float: left;
+	height: 100%;
+	width: 6%;
+	background: rgb(215, 215, 215);
+}
+
+.TopBlock>div:nth-child(3n){
+	float: left;
+	height: 100%;
+	width: 74%;
+	background: rgb(215, 215, 215);
+	
+}
+
+.boxes {
+	height: 100%;
+	width: 100%;
+}
+
+.box1 {
+	height: 20%;
+	width: 100%;
+	margin-bottom: -130px;
+}
+
+.name {
+	float: left;
+}
+
+.name p{
+	color: rgb(94, 150, 178);
+	margin: 0;
+	padding-top: 30px;
+	font-family: fantasy;
+	font-size: 75px;
+}
+
+.search {
+	float: right;
+	padding-top: 50px;
+}
+
+.box2 {
+	background: rgb(49, 36, 32);
+	padding: 17px 0;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.box2 li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 35px;
+	border-right: 1px solid;
+	border-color: rgb(151, 135, 130);
+}
+
+.box2 li:last-child {
+	border: none;
+}
+
+.box2 a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.box2 a:hover {
+	color: rgb(94, 150, 178);
+}
+
+.box3 {
+	height: 502px;
+	width: 100%;
+	text-align: center;
+}
+
+.box4 {
+	background: rgb(49, 36, 32);
+	height: 170px;
+	width: 100%;
+}
+
+.box4 div{
+	float: left;
+	width: 30%;	
+	vertical-align: top;
+	padding: 0 19px;
+}
+
+.box4 h2{
+	font-family: arial;
+	color: rgb(255, 255, 255);
+}
+
+.box4 div>p:nth-child(2n){
+	font-family: arial;
+	color: rgb(233, 160, 71);
+}
+
+.box4 div>p:last-child{
+	font-family: arial;
+	color: rgb(255, 255, 255);
+}
+
+.box5 {
+	height: 490px;
+	width: 100%;
+	margin: 10px 0;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.top div{
+	display: inline-block;
+	padding: 0 70px;
+}
+
+.bottom div{
+	display: inline-block;
+	width: 29%;
+	vertical-align: top;
+	padding: 0 20px;
+	border-right: 1px solid rgb(156, 150, 146);
+}
+
+.bottom div:last-child{
+	border: none;
+}
+
+.choose>p:nth-child(odd){
+	font-family: arial;
+	color: rgb(94, 150, 178);
+}
+
+.choose>p:nth-child(even){
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(156, 150, 146);
+}
+
+.welcome>p:first-child{
+	font-family: arial;
+	font-size: 30px;
+	color: rgb(156, 150, 146);
+}
+
+.welcome>p:nth-child(2n){
+	font-family: arial;
+	color: rgb(71, 54, 49);
+}
+
+.welcome>p:last-child{
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(156, 150, 146);
+}
+
+.new>p:first-child{
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(94, 150, 178);
+}
+
+.new>p:nth-child(2n){
+	font-family: arial;
+	color: rgb(71, 54, 49);
+}
+
+.new>p:nth-child(3n){
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(156, 150, 146);
+}
+
+.new>p:nth-child(4n) {
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(94, 150, 178);
+}
+
+.new>p:nth-child(5n){
+	font-family: arial;
+	color: rgb(71, 54, 49);
+}
+
+.new>p:last-child{
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(156, 150, 146);
+}
+
+.top h3{
+	font-family: arial;
+	color: rgb(71, 54, 49);
+	text-align: center;
+}
+
+.TopBlock>div:nth-child(4n){
+	height: 100%;
+	width: 6%;
+	background: rgb(215, 215, 215);
+}
+
+.TopBlock>div:last-child{
+	height: 100%;
+	width: 7%;
+}
+
+.BottomBlock {
+	position: absolute;
+	bottom: 0;
+	height: 125px;
+	width: 100%;
+	background:rgb(49, 36, 32);
+}
+
+.CopyBlock {
+	float: left;
+	height: 100%;
+	margin-left: 110px;
+}
+
+.CopyBlock p{
+	padding-top: 40px;
+	padding-left: 110px;
+	font-size: 12px;
+	font-family: arial;
+	color: rgb(151, 135, 130);
+}
+
+.LinksBlock{
+	float: right;
+	height: 100%;
+	margin-right: 110px;
+}
+
+.LinksBlock ul{
+	padding-top: 38px;
+	padding-right: 110px;
+	list-style: none;
+}
+
+.LinksBlock li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+.LinksBlock a{
+	font-size: 12px;
+	font-family: arial;
+	color: rgb(151, 135, 130);
+	text-decoration: none; 
+}
+
+.LinksBlock a:hover{
+	color: rgb(94, 150, 178);
+}
